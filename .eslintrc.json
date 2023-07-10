@@ -1,0 +1,19 @@
+{
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "@typescript-eslint/member-delimiter-style": [
+      "warn",
+      {
+          "multiline": {
+              "delimiter": "comma",
+              "requireLast": true
+          },
+          "singleline": {
+              "delimiter": "comma",
+              "requireLast": false
+          }
+      }
+  ]
+  }
+}
